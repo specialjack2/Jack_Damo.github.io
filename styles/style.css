@@ -2,20 +2,24 @@
         display: grid;
         height: 70%;
         grid-template-columns: repeat(3,33.33%);
+        /*repeat from item1 to item 3 */
+        grid-column-gap: 15px;
+        
     }
-    .left{
-        background: red;
+    .item1{
+        background-color:rgb(118, 190, 191);
         grid-row:1;
         grid-column:1;
     }    
-    .right{
-        background: blue;
+    .item2{
+        background:rgb(255, 205, 97);
         grid-row:1;
         grid-column:2;
     }
-    .middle{
-        background: green;
+    .item3{
+        background:rgba(232, 96, 54, 0.961);
         grid-row:1;
         grid-column:3;
     }
+.icon { size: 20%}
 
