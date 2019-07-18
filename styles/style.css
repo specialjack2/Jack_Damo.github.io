@@ -1,0 +1,21 @@
+.container{
+        display: grid;
+        height: 70%;
+        grid-template-columns: repeat(3,33.33%);
+    }
+    .left{
+        background: red;
+        grid-row:1;
+        grid-column:1;
+    }    
+    .right{
+        background: blue;
+        grid-row:1;
+        grid-column:2;
+    }
+    .middle{
+        background: green;
+        grid-row:1;
+        grid-column:3;
+    }
+
